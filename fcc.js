@@ -365,6 +365,7 @@ function functionWithArgs(a, b) {
 }
 functionWithArgs(1, 2);
 
+// more exercises
 // Declare your variable here
 var myGlobal = 10;
 
