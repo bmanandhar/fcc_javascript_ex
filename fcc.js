@@ -39,6 +39,7 @@ var studlyCapVar;
 var properCamelCase;
 var titleCaseOver;
 
+
 // Assignments
 studlyCapVar = 10;
 properCamelCase = "A String";
@@ -109,6 +110,7 @@ var a = 48;
 var b = 108;
 var c = 33;
 
+
 // Only modify code below this line
 
 a /= 12;
@@ -151,7 +153,6 @@ var myStr = "This is the start. " + "This is the end.";
 // Example
 var ourStr = "I come first. ";
 ourStr += "I come second.";
-
 // Only change code below this line
 
 var myStr = "This is the first sentence.";
