@@ -1425,7 +1425,6 @@ console.log(newArray);
 
 var string = "Split me into an array";
 var array = [];
-
 // Only change code below this line.
 
 array = string.split(" ");
@@ -1438,3 +1437,6 @@ var joinedString = '';
 
 joinedString = joinMe.join(" ");
 console.log(joinedString);
+if 9 > 4
+  print "this is being printed because 9 is greater than 4!"
+end
