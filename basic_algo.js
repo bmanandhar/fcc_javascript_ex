@@ -1,3 +1,4 @@
+/*
 //#231
 function reverseString(str) {
   var strReverse = str.split('').reverse().join('');
@@ -40,7 +41,8 @@ function findLongestWord(str) {
 }
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
-//# titleCase
+//#
+
 function titleCase(str) {
   var convertToArray = str.toLowerCase().split(" ");
   var result = convertToArray.map(function(val){
@@ -50,3 +52,14 @@ function titleCase(str) {
 }
 
 titleCase("I'm a little tea pot");
+*/
+// Find the greates playerNumber
+
+var x = [[3, 5, 11, -1],[0, 1, 9, 3]];
+var greatest = x[0];
+for (var i = 1; i < x.length; i ++) {
+    if (x[i] > greatest) {
+        greatest = x[i];
+    }
+}
+console.log("greatest number:", greatest);
